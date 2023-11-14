@@ -9,7 +9,7 @@ else
   mkdir $1
   cd $1
   npm init -y
-  npm install express dotenv cors bcryptjs express-async-handler jsonwebtoken
+  npm install express dotenv cors bcryptjs jsonwebtoken
   npm install -D typescript nodemon ts-node @types/express @types/node @types/cors @types/bcryptjs @types/jsonwebtoken
   npx tsc -init
   mkdir src
